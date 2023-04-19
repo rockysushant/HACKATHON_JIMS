@@ -42,9 +42,11 @@ the user experience in mind.
 
 
 ## 🔥 Screenshorts
-![s1](![6](https://user-images.githubusercontent.com/99118017/233016643-cf4f81de-034a-4f39-b29e-0ba8cf13442e.jpg))
-![s2](![7](https://user-images.githubusercontent.com/99118017/233016761-3e737b47-07a8-496a-82db-c44d19eaba7f.jpg))
 
+<img align="left" width="320" height="700" src="![6](https://user-images.githubusercontent.com/99118017/233017102-b8ea3ad3-abd6-44db-969b-976c6bd97346.jpg)
+">
+<img align="right" width="320" height="700" src="![7](https://user-images.githubusercontent.com/99118017/233017166-87a3f4e4-579f-478c-ae58-e940786671b4.jpg)
+">
 
 
 
