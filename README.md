@@ -43,9 +43,9 @@ the user experience in mind.
 
 ## 🔥 Screenshorts
 
-<img align="left" width="320" height="700" src="!https://user-images.githubusercontent.com/99118017/233017102-b8ea3ad3-abd6-44db-969b-976c6bd97346.jpg
+<img align="left" width="320" height="700" src="https://user-images.githubusercontent.com/99118017/233017102-b8ea3ad3-abd6-44db-969b-976c6bd97346.jpg
 ">
-<img align="right" width="320" height="700" src="!https://user-images.githubusercontent.com/99118017/233017166-87a3f4e4-579f-478c-ae58-e940786671b4.jpg
+<img align="right" width="320" height="700" src="https://user-images.githubusercontent.com/99118017/233017166-87a3f4e4-579f-478c-ae58-e940786671b4.jpg
 ">
 
 
