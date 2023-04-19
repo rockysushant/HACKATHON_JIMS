@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geekym.care4u">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Care4U">
+        <activity
+            android:name=".HomeScreen.FoodForYou.Fruits"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.FoodForYou.Vegetables"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.FoodForYou.Protiens"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.FoodForYou.Cereals"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.FoodForYou.Food_For_You"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.VaccineSlot.Vaccine_Slot"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.ForgetPass"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.CovidCases.WorldDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.CovidCases.CountrywiseDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.CovidCases.data.PerCountryData"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.selfAssessment.Self_Assessment_Result"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.Result_Safe"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.selfAssessment.Self_Assessment"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.Login_Page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.geekym.caringyou"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".authentication.Vaccine_Details"
+            android:exported="true"
+            android:largeHeap="true" />
+        <activity
+            android:name=".User_Details"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.vaccineCertificateValidation.ScanQR"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.vaccineCertificateValidation.GenQR"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen.Safety_Tips"
+            android:exported="false" />
+        <activity
+            android:name=".introduction.OBS"
+            android:exported="true" />
+        <activity
+            android:name=".HomeScreen.Homescreen"
+            android:exported="true" />
+        <activity
+            android:name=".introduction.Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
