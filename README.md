@@ -46,11 +46,6 @@ the user experience in mind.
 ![s2](https://user-images.githubusercontent.com/80090908/139576515-74219c19-3103-481f-84d0-cfd9fb9e012f.png)
 
 
-## 🖥️ API Used
-
- - World COVID Cases - https://disease.sh/v3/covid-19/all
- - Country COVID Cases - https://disease.sh/v3/covid-19/countries
- - Vaccine Slot Finder - https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode=
 
 
 
@@ -68,6 +63,6 @@ the user experience in mind.
 
 ## 🔥 Developers -
 
-- [Aritra Das](https://github.com/aritra-tech)
-- [Binay Shaw](https://github.com/binayshaw7777)
-- [Chirag Chakraborty](https://github.com/GeekLord04)
+- [Sushant kumar](https://github.com/rockysushant)
+- [Mritunjay Jha](https://github.com/Mritunjay-2001)
+- [Saloni Kumari](https://github.com/solujr)
