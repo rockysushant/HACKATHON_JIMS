@@ -11,7 +11,7 @@ in this current COVID situation.
 
 
 
-## 🤔 Idea behind this project
+##  Idea behind this project
 
 To solve the daily life problems,
 we had to build something that 
